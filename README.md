@@ -62,7 +62,7 @@ python -m spacy download --user en
 ### Build The Dataset
 
 1. Download the Yelp Dataset from [https://www.kaggle.com/yelp-dataset/yelp-dataset](https://www.kaggle.com/yelp-dataset/yelp-dataset)
-2. Extract yelp_academic_dataset_review.json file the put in under ./WritingStyleTransfer/.data
+2. Extract yelp_academic_dataset_review.json file the put in under ./writing-style-transfer/.data
 3. Run buildData.py script
 ```sh
 python buildData.py \
@@ -123,7 +123,7 @@ Where
 ```
 
 ### See The Results
-To see how well the network preform, you can open the DisplayNetwork.ipynb notebook in jupyter or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eliorav/WritingStyleTransfer/blob/master/DisplayNetwork.ipynb)
+To see how well the network preform, you can open the DisplayNetwork.ipynb notebook in jupyter or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/eliorav/writing-style-transfer/blob/master/DisplayNetwork.ipynb)
 
 <!-- Hacks and Observations -->
 ## Hacks and Observations
@@ -151,4 +151,4 @@ Here are some references we looked at while making these project.
 * Elior Avraham - elior.av@gmail.com
 * Natali Boniel - nataliboniel@gmail.com
 
-Project Link: [https://github.com/eliorav/writing-style-transfer](https://github.com/eliorav/WritingStyleTransfer)
+Project Link: [https://github.com/eliorav/writing-style-transfer](https://github.com/eliorav/writing-style-transfer)
